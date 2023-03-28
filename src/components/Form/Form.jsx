@@ -362,12 +362,12 @@ const Form = () => {
       </ContactForm>
       <BigLetter
         width="241"
-        // src={`${process.env.PUBLIC_URL}/images/letter-big.png`}
+        src={`..images/images/letter-big.png`}
         alt="letter-big"
       />
       <SmallLetter
         width="105"
-        // src={`${process.env.PUBLIC_URL}/images/letter-small.png`}
+        src={`..images/images/letter-small.png`}
         alt="letter"
       />
     </FormWrapper>
