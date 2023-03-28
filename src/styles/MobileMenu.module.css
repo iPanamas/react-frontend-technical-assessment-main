@@ -1,0 +1,49 @@
+.header_isClosed .active{
+    background-color: var(--bgmain);
+
+}
+.header_isOpen{
+    background-color: var(--black);
+    color: var(--white);
+}
+.header_wrapper{
+    padding-top: 28px;
+    padding-bottom: 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    
+font-family: 'Inter';
+
+font-weight: 800;
+font-size: 18px;
+line-height: 1.22;
+}
+.mobile_menu__button{
+    background-color: transparent;
+}
+.navigation{
+    padding-top: 28px;
+    padding-bottom: 28px;
+}
+.user_cart {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 36px;
+}
+.item{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.14;
+}
+
+.item + .item {
+    margin-top: 30px;
+}
