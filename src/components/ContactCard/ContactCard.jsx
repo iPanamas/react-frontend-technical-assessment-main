@@ -32,7 +32,7 @@ const ContactCard = () => {
             <svg width="30" height="30" className={styles.icon}>
               <use
                 className={styles.icon_name}
-                // xlinkHref={`${process.env.PUBLIC_URL}/sprite.svg#icon-sosial-1`}
+                xlinkHref={`../sprite.svg#icon-sosial-1`}
               />
             </svg>
           </Sosial>
@@ -45,9 +45,7 @@ const ContactCard = () => {
             rel="noreferrer"
           >
             <svg width="30" height="30" className="icon">
-              <use
-              // xlinkHref={`${process.env.PUBLIC_URL}/sprite.svg#icon-sosial-2`}
-              />
+              <use xlinkHref={`..images/sprite.svg#icon-sosial-2`} />
             </svg>
           </Sosial>
         </li>
@@ -59,9 +57,7 @@ const ContactCard = () => {
             rel="noreferrer"
           >
             <svg width="30" height="30" className="icon">
-              <use
-              // xlinkHref={`${process.env.PUBLIC_URL}/sprite.svg#icon-sosial-3`}
-              />
+              <use xlinkHref={`..images/sprite.svg#icon-sosial-3`} />
             </svg>
           </Sosial>
         </li>
@@ -69,22 +65,18 @@ const ContactCard = () => {
 
       <DesctopBig
         width="182"
-        // src={`${process.env.PUBLIC_URL}/images/desctop-big.png`}
+        src={`../images/desctop-big.png`}
         alt="elipse-desctop"
       />
       <DesctopSmall
         width="138"
-        // src={`${process.env.PUBLIC_URL}/images/desctop-small.png`}
+        src={`../images/desctop-small.png`}
         alt="elipse-small"
       />
-      <BigElipse
-        width="80"
-        // src={`${process.env.PUBLIC_URL}/images/elipse-big.png`}
-        alt="elipse-big"
-      />
+      <BigElipse width="80" src={`../images/elipse-big.png`} alt="elipse-big" />
       <SmallElipse
         width="54"
-        // src={`${process.env.PUBLIC_URL}/images/elipse-small.png`}
+        src={`../images/elipse-small.png`}
         alt="elipse-small"
       />
     </Section>

@@ -74,7 +74,7 @@ const AuthNav = () => {
                       <use
                         width="31"
                         height="31"
-                        // xlinkHref={`${process.env.PUBLIC_URL}/sprite.svg#icon-user-main`}
+                        xlinkHref={`..images/sprite.svg#icon-user-main`}
                       />
                     </HeaderSvg>
                   </NavigationLink>
@@ -86,7 +86,7 @@ const AuthNav = () => {
                       <use
                         width="31"
                         height="31"
-                        // xlinkHref={`${process.env.PUBLIC_URL}/sprite.svg#icon-cart-main`}
+                        xlinkHref={`..images/sprite.svg#icon-cart-main`}
                       />
                     </HeaderSvg>
                   </NavigationLink>

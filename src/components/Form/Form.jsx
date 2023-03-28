@@ -253,11 +253,11 @@ const Form = () => {
               <svg className={styles.option_check} width="16" height="15">
                 <use
                   class="unchecked"
-                  // xlinkHref={`${process.env.PUBLIC_URL}/sprite.svg#icon-unchecked`}
+                  xlinkHref={`..images/sprite.svg#icon-unchecked`}
                 ></use>
                 <use
                   className={styles.checked}
-                  // xlinkHref={`${process.env.PUBLIC_URL}/sprite.svg#icon-checked`}
+                  xlinkHref={`..images/sprite.svg#icon-checked`}
                 ></use>
               </svg>
               <span> General Inquiry</span>
@@ -276,11 +276,11 @@ const Form = () => {
                 <svg className={styles.option_check} width="16" height="15">
                   <use
                     class="unchecked"
-                    // xlinkHref={`${process.env.PUBLIC_URL}/sprite.svg#icon-unchecked`}
+                    xlinkHref={`..images/sprite.svg#icon-unchecked`}
                   ></use>
                   <use
                     className={styles.checked}
-                    // xlinkHref={`${process.env.PUBLIC_URL}/sprite.svg#icon-checked`}
+                    xlinkHref={`..images/sprite.svg#icon-checked`}
                   ></use>
                 </svg>
                 <span> General Inquiry</span>
@@ -300,11 +300,11 @@ const Form = () => {
                 <svg className={styles.option_check} width="16" height="15">
                   <use
                     class="unchecked"
-                    // xlinkHref={`${process.env.PUBLIC_URL}/sprite.svg#icon-unchecked`}
+                    xlinkHref={`..images/sprite.svg#icon-unchecked`}
                   ></use>
                   <use
                     className={styles.checked}
-                    // xlinkHref={`${process.env.PUBLIC_URL}/sprite.svg#icon-checked`}
+                    xlinkHref={`..images/sprite.svg#icon-checked`}
                   ></use>
                 </svg>
                 <span> General Inquiry</span>
@@ -323,11 +323,11 @@ const Form = () => {
                 <svg className={styles.option_check} width="16" height="15">
                   <use
                     class="unchecked"
-                    // xlinkHref={`${process.env.PUBLIC_URL}/sprite.svg#icon-unchecked`}
+                    xlinkHref={`..images/sprite.svg#icon-unchecked`}
                   ></use>
                   <use
                     className={styles.checked}
-                    // xlinkHref={`${process.env.PUBLIC_URL}/sprite.svg#icon-checked`}
+                    xlinkHref={`..images/sprite.svg#icon-checked`}
                   ></use>
                 </svg>
                 <span> General Inquiry</span>

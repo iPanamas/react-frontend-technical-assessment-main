@@ -23,15 +23,11 @@ const MobileMenu = () => {
           <button className={styles.mobile_menu__button} onClick={handleToggle}>
             {isOpen ? (
               <svg width="24" height="24" className="icon">
-                <use
-                // xlinkHref={`${process.env.PUBLIC_URL}/sprite.svg#icon-close`}
-                />
+                <use xlinkHref={`..images/sprite.svg#icon-close`} />
               </svg>
             ) : (
               <svg width="24" height="24" className="icon">
-                <use
-                // xlinkHref={`${process.env.PUBLIC_URL}/sprite.svg#icon-menu`}
-                />
+                <use xlinkHref={`..images/sprite.svg#icon-menu`} />
               </svg>
             )}
           </button>
@@ -68,7 +64,7 @@ const MobileMenu = () => {
                     <use
                       width="33"
                       height="33"
-                      // xlinkHref={`${process.env.PUBLIC_URL}/sprite.svg#icon-user`}
+                      xlinkHref={`..images/sprite.svg#icon-user`}
                     />
                   </svg>
                 </Link>
@@ -81,7 +77,7 @@ const MobileMenu = () => {
                     <use
                       width="31"
                       height="31"
-                      // xlinkHref={`${process.env.PUBLIC_URL}/sprite.svg#icon-cart`}
+                      xlinkHref={`..images/sprite.svg#icon-cart`}
                     />
                   </svg>
                 </Link>
