@@ -253,11 +253,11 @@ const Form = () => {
               <svg className={styles.option_check} width="16" height="15">
                 <use
                   class="unchecked"
-                  xlinkHref={`..images/sprite.svg#icon-unchecked`}
+                  xlinkHref="..images/sprite.svg#icon-unchecked"
                 ></use>
                 <use
                   className={styles.checked}
-                  xlinkHref={`..images/sprite.svg#icon-checked`}
+                  xlinkHref="..images/sprite.svg#icon-checked"
                 ></use>
               </svg>
               <span> General Inquiry</span>
@@ -276,11 +276,11 @@ const Form = () => {
                 <svg className={styles.option_check} width="16" height="15">
                   <use
                     class="unchecked"
-                    xlinkHref={`..images/sprite.svg#icon-unchecked`}
+                    xlinkHref="..images/sprite.svg#icon-unchecked"
                   ></use>
                   <use
                     className={styles.checked}
-                    xlinkHref={`..images/sprite.svg#icon-checked`}
+                    xlinkHref="..images/sprite.svg#icon-checked"
                   ></use>
                 </svg>
                 <span> General Inquiry</span>
@@ -300,11 +300,11 @@ const Form = () => {
                 <svg className={styles.option_check} width="16" height="15">
                   <use
                     class="unchecked"
-                    xlinkHref={`..images/sprite.svg#icon-unchecked`}
+                    xlinkHref="..images/sprite.svg#icon-unchecked"
                   ></use>
                   <use
                     className={styles.checked}
-                    xlinkHref={`..images/sprite.svg#icon-checked`}
+                    xlinkHref="..images/sprite.svg#icon-checked"
                   ></use>
                 </svg>
                 <span> General Inquiry</span>
@@ -323,11 +323,11 @@ const Form = () => {
                 <svg className={styles.option_check} width="16" height="15">
                   <use
                     class="unchecked"
-                    xlinkHref={`..images/sprite.svg#icon-unchecked`}
+                    xlinkHref="..images/sprite.svg#icon-unchecked"
                   ></use>
                   <use
                     className={styles.checked}
-                    xlinkHref={`..images/sprite.svg#icon-checked`}
+                    xlinkHref="..images/sprite.svg#icon-checked"
                   ></use>
                 </svg>
                 <span> General Inquiry</span>
@@ -360,16 +360,8 @@ const Form = () => {
 
         <Button type="submit">Send Message</Button>
       </ContactForm>
-      <BigLetter
-        width="241"
-        src={`../images/letter-big.png`}
-        alt="letter-big"
-      />
-      <SmallLetter
-        width="105"
-        src={`../images/letter-small.png`}
-        alt="letter"
-      />
+      <BigLetter width="241" src="../images/letter-big.png" alt="letter-big" />
+      <SmallLetter width="105" src="../images/letter-small.png" alt="letter" />
     </FormWrapper>
   );
 };

@@ -17,7 +17,7 @@ const ContactList = (props) => {
       <li className={styles.item}>
         <a href="tel:+10123456789" className={styles["item__link"]}>
           <svg className={styles.icon} width="24" height="24">
-            <use xlinkHref={`..images/sprite.svg#icon-call`} />
+            <use xlinkHref="..images/sprite.svg#icon-call" />
           </svg>
           <p className={styles["item__text"]}>+1012 3456 789</p>
         </a>
@@ -25,14 +25,14 @@ const ContactList = (props) => {
       <li className={styles.item}>
         <a href="mailto:ygaginazy@gmail.com" className={styles["item__link"]}>
           <svg width="24" height="24" className="icon">
-            <use xlinkHref={`..images/sprite.svg#icon-email`} />
+            <use xlinkHref="..images/sprite.svg#icon-email" />
           </svg>
           <p className={styles["item__text"]}>demo@gmail.com</p>
         </a>
       </li>
       <li className={styles.item} onClick={handleLocation}>
         <svg width="24" height="24" className="icon">
-          <use xlinkHref={`..images/sprite.svg#icon-location`} />
+          <use xlinkHref="..images/sprite.svg#icon-location" />
         </svg>
         <Location className={styles["item__text"]}>
           132 Dartmouth Street Boston, Massachusetts 02156 United States
